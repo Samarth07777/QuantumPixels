@@ -69,7 +69,8 @@ data/TPCH/
 ## 🛠️ Build Instructions
 
 ```powershell
-& "C:\Program Files\apache-maven-3.9.9\bin\mvn.cmd" clean package -Dmaven.test.skip=true
+& "C:\Program Files\apache-maven-3.9.9\bin\mvn.cmd" clean package --% -Dmaven.test.skip=true
+
 ```
 
 ---
